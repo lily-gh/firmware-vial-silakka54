@@ -65,7 +65,7 @@ enum planck_layers {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT(
-        LT(8, KC_GRAVE),KC_Q,           KC_W,           KC_F,           KC_P,           KC_B,                               KC_J,           KC_L,           KC_U,           KC_Y,           LSFT(KC_SCLN),  KC_BSPC,
+        LT(8, KC_GRAVE),KC_Q,           KC_W,           KC_F,           KC_P,           KC_B,                               QK_BOOT,           KC_L,           KC_U,           KC_Y,           LSFT(KC_SCLN),  KC_BSPC,
         LT(3, KC_TAB),  MT(MOD_LCTL, KC_A),KC_R,           KC_S,           KC_T,           KC_G,                               KC_M,           KC_N,           KC_E,           KC_I,           KC_O,           MT(MOD_LCTL, KC_QUOTE),
         TD(DANCE_0),    KC_Z,           KC_X,           KC_C,           KC_D,           KC_V,                               KC_K,           KC_H,           KC_COMMA,       KC_DOT,         KC_QUES,        MT(MOD_RSFT, KC_ENTER),
         DUAL_FUNC_0,    TD(DANCE_1),    KC_LEFT_ALT,    KC_LEFT_GUI,    DUAL_FUNC_1,    LT(9, KC_SPACE),                    DUAL_FUNC_2,    LT(5, KC_LEFT), LT(12, KC_DOWN),KC_UP,          LT(7, KC_RIGHT),KC_NO,
